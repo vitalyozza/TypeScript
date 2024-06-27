@@ -5,4 +5,3 @@ function assertUser(obj) {
     }
     throw new Error('Пользователь не админ');
 }
-assertUser({});
